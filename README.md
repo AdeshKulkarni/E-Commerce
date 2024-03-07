@@ -1,2 +1,8 @@
-# E-commerce
- Welcome to the GitHub repository for our React-based e-seamless online shopping experience. Leveraging the power of JavaScript and React, our store features a dynamic, user-friendly interface that supports a wide range of functionalities, including item addition and removal, real-time notifications, and a comprehensive order summary. Features
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
