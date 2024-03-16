@@ -20,6 +20,8 @@ const Navbar = () => {
                     <NavLink to="/">
                         <p>Home</p>
                     </NavLink>
+                    <NavLink to = "/sign-in" >Sign In</NavLink>
+
 
                     <NavLink to="/cart">
                         <div className="relative">
@@ -36,6 +38,7 @@ const Navbar = () => {
                     </NavLink>
 
                 </div>
+                
             </nav>
         </div>
     )

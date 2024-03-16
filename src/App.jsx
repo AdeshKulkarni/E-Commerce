@@ -6,6 +6,7 @@ import { Route } from "react-router-dom";
 import Navbar from "./Componets/NavBar.jsx";
 import Home from "./Pages/Home.jsx";
 import Cart from "./Pages/Cart.jsx";
+import SignIn from "./Componets/Sign_in.jsx";
 
 const App = () => {
     return (<div>
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/cart" element={<Cart/>} />
+            <Route path= "/sign-in" element = {<SignIn /> }/>
         </Routes>
     </div>)
 };
